@@ -38,6 +38,44 @@ nav {
   margin:auto;
 }
 
+#downHomeImg {
+  position:fixed;
+  top:95vh;
+  height:5vh;
+  width:auto;
+  right:45vw;
+}
+
+#homeInfo {
+  position:absolute;
+  top:100vh;
+  height:110vh;
+  width:100vw;
+  background-color:white;
+}
+
+.infoHeader {
+  text-align:center;
+  font-family:vacantHeadline;
+  font-weight:bold;
+  font-size:180px;
+  letter-spacing:4px;
+  margin-top:15vh;
+}
+
+.infoText {
+  text-align:center;
+  font-family:vacantHeadline;
+  font-weight:bold;
+  font-size:80px;
+  letter-spacing:4px;
+}
+
+.infoText a {
+  color:black;
+}
+
+
 #shows {
   background-color:black;
   position:absolute;
@@ -173,3 +211,4 @@ nav {
   -webkit-transform: rotateX(0deg) rotateY(0deg);
 	-moz-transform:rotateX(0deg) rotateY(0deg);
 }
+
