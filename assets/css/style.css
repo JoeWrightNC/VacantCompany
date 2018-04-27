@@ -2,8 +2,13 @@
 @font-face { font-family: VacantHeadline; src: url("../fonts/VacantHeadlineMain.ttf"); } 
 
 body {
-  font-family: VacantText;
+  font-family: 'Special Elite', cursive;
 }
+
+.display-4 {
+  font-family:VacantHeadline;
+}
+
 nav {
   color:whitesmoke;
   opacity:.85;
