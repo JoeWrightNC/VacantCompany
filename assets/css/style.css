@@ -217,3 +217,30 @@ nav {
 	-moz-transform:rotateX(0deg) rotateY(0deg);
 }
 
+@media only screen and (max-width: 800px) {
+  .navbar-brand {
+    font-size: 2em;
+  }
+
+  .infoHeader {
+    font-size:70px;
+    letter-spacing:2px;
+  }
+  
+  .infoText {
+    font-size:40px;
+    letter-spacing:2px;
+  }
+
+  .webRow {
+    height:auto !important;
+    margin-top: -5vh !important;
+    margin-bottom:20vh;
+  }
+
+  iframe {
+    width:70vw;
+  }
+
+} 
+
